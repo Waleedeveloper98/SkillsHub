@@ -39,8 +39,6 @@ const router = createBrowserRouter([
           { path: "*", element: <NotFound /> },
         ],
       },
-
-      // 👇 GLOBAL 404
       { path: "*", element: <NotFound /> },
     ],
   },
