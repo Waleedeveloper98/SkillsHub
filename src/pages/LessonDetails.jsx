@@ -61,7 +61,7 @@ const LessonDetails = () => {
 
         {/* Actions */}
         <div className="flex items-center justify-between border-t border-zinc-800 px-6 py-5">
-            <button onClick={() => navigate(`/courses/${id}`)} className="rounded-lg border border-zinc-700 px-5 py-2 text-sm text-zinc-300 hover:bg-zinc-800 transition">
+            <button onClick={() => navigate(`/courses/${id}`,{replace:true})} className="rounded-lg border border-zinc-700 px-5 py-2 text-sm text-zinc-300 hover:bg-zinc-800 transition">
               ← Back to Lessons
             </button>
 
